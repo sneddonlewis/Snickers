@@ -1,0 +1,6 @@
+﻿services:
+  snickers.api:
+    image: snickers.api
+    build:
+      context: .
+      dockerfile: Snickers.Api/Dockerfile
